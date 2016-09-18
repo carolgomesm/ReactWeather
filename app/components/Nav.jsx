@@ -8,18 +8,18 @@ var Nav = React.createClass({
   },
   render: function(){
     return (
-      <div className="top-bar">
+      <div className="top-bar my-nav">
         <div className="top-bar-left">
-          <ul className="menu">
-            <li className="menu-text">React Weather App</li>
+          <ul className="menu my-nav">
+            <li className="menu-text title">React Weather App</li>
             <li>
-              <IndexLink to="/" activeClassName="active" activeStyle = {{fontWeight: 'bold'}}>Get Weather</IndexLink>
+              <IndexLink to="/" activeClassName="active" activeStyle = {{fontWeight: 'bold', color:'#ff4081'}}>Get Weather</IndexLink>
             </li>
             <li>
-              <Link to="/about" activeClassName="active" activeStyle = {{fontWeight: 'bold'}}>About</Link>
+              <Link to="/about" activeClassName="active" activeStyle = {{fontWeight: 'bold', color:'#ff4081'}}>About</Link>
             </li>
             <li>
-              <Link to="/example" activeClassName="active" activeStyle = {{fontWeight: 'bold'}}>Example</Link>
+              <Link to="/example" activeClassName="active" activeStyle = {{fontWeight: 'bold', color:'#ff4081'}}>Example</Link>
             </li>
           </ul>
         </div>
