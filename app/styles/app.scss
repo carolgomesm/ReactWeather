@@ -1,0 +1,46 @@
+$space-large: 2.5rem;
+$lime-color: #8bc34a;
+$secondary-color:#e91e63;
+$hover-focus-color:#ff4081;
+
+.body{
+  color: #2c3e50;
+}
+.page-title{
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+input[type=search]{
+  box-shadow: none;
+}
+.my-nav{
+  background:$lime-color;
+}
+.my-nav ul{
+  background:$lime-color;
+}
+a{
+  color: #ffffff;
+}
+a:hover{
+  color: $secondary-color;
+}
+.link{
+  color: $secondary-color;
+}
+.title{
+  color: #ffffff;
+}
+.button.hollow{
+  color:$secondary-color;
+  border-color: $secondary-color;
+}
+.button.hollow:focus {
+  color:$hover-focus-color;
+  border-color: $hover-focus-color;
+}
+.button.hollow:hover {
+  color:$hover-focus-color;
+  border-color: $hover-focus-color;
+}
